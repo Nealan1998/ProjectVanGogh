@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <LangVersion>latest</LangVersion>
+    <LangVersion>8.0</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -53,19 +53,22 @@
     <UnityVersion>2021.1.20f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
+  </ItemGroup>
+  <ItemGroup>
     <Compile Include="Assets\Scripts\Camel\FinalSopwithHopefully.cs" />
     <Compile Include="Assets\Scripts\Camel\AirplanePhysics.cs" />
+    <Compile Include="Assets\PlaneGroundSwitch.cs" />
+    <Compile Include="Assets\Scripts\UI.cs" />
+    <Compile Include="Assets\Balloon.cs" />
     <Compile Include="Assets\Scripts\Camel\ShipControls.cs" />
     <Compile Include="Assets\Scripts\CameraMovement.cs" />
-    <Compile Include="Assets\Scripts\Camel\SophwithCamel.cs" />
-    <Compile Include="Assets\Scripts\Camel\Sophwith.cs" />
-    <Compile Include="Assets\Scripts\Nicole\Player.cs" />
-    <Compile Include="Assets\Sprites\Assets\Scripts\CameraController.cs" />
-    <Compile Include="Assets\Scripts\UI.cs" />
-    <Compile Include="Assets\PlaneGroundSwitch.cs" />
-    <Compile Include="Assets\Balloon.cs" />
     <Compile Include="Assets\GameManager.cs" />
     <Compile Include="Assets\CollisionDetector.cs" />
+    <Compile Include="Assets\Scripts\Camel\SophwithCamel.cs" />
+    <Compile Include="Assets\Scripts\Nicole\Player.cs" />
+    <Compile Include="Assets\Sprites\Assets\Scripts\CameraController.cs" />
+    <Compile Include="Assets\Scripts\Camel\Sophwith.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -683,6 +686,9 @@
     <Reference Include="VSSettingsProvider">
       <HintPath>Library\ScriptAssemblies\VSSettingsProvider.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.2D.Sprite.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.VisualScripting.Flow">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
     </Reference>
@@ -703,9 +709,6 @@
     </Reference>
     <Reference Include="Unity.VisualScripting.Core">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.Sprite.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
