@@ -10,6 +10,7 @@ public class GameManager : MonoBehaviour
     public float health, maxHealth, energy, maxEnergy;
 
     enum playstyle { PILOT, SOLDIER}
+    [SerializeField]
     playstyle currentPlaystyle;
     // Start is called before the first frame update
     void Start()
@@ -45,6 +46,17 @@ public class GameManager : MonoBehaviour
         else
         {
             return false;
+        }
+    }
+
+    public void SwitchPlaystyle()
+    {
+        if (currentPlaystyle == playstyle.PILOT)
+        {
+            currentPlaystyle = playstyle.SOLDIER;
+        }else if (currentPlaystyle == playstyle.SOLDIER) 
+        {
+            currentPlaystyle = playstyle.PILOT;
         }
     }
 }

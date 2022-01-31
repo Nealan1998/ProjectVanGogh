@@ -13,7 +13,16 @@ public class CollisionDetector : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        message = "Press E to Exit Plane";
+        if (this.gameObject.GetComponent<Player>() != null)
+        {
+            thisType = typeOfPlayer.SOLDIER;
+            message = "Press E to Enter Plane";
+        }
+        if (this.gameObject.GetComponent<FinalSopwithHopefully>() != null)
+        {
+            thisType = typeOfPlayer.PLANE;
+            message = "Press E to Exit Plane";
+        }
     }
 
     // Update is called once per frame
@@ -21,6 +30,7 @@ public class CollisionDetector : MonoBehaviour
     {
         if(Input.GetKeyDown(KeyCode.E) && canSwitch)
         {
+            UI.instance.messageInactive();
             entryPoint.StartSpawn(this.gameObject);
         }
     }

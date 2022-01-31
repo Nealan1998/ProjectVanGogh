@@ -4,37 +4,42 @@ using UnityEngine;
 
 public class PlaneGroundSwitch : MonoBehaviour
 {
-    public GameObject holding, dummyPlane;
+    public GameObject player, plane, dummyPlane;
     public bool holdingPlane;
-    Transform planeTransform, playerTransform;
+    public Transform playerTransform, planeTransform;
 
     private void Start()
     {
         Vector3 runwayPosition = this.transform.position;
         Quaternion runwayRotation = this.transform.rotation;
-        planeTransform.position = new Vector3(runwayPosition.x, runwayPosition.y + 10.0f, runwayPosition.z);
-        planeTransform.rotation = new Quaternion(0f, runwayPosition.x, 0f, 0f);
-        playerTransform.position = new Vector3(runwayPosition.x - 2f, runwayPosition.y, runwayPosition.z);
+        
     }
 
     public void StartSpawn(GameObject newToHold)
     {
-        newToHold.SetActive(false);
-        if(newToHold.tag == "Player")
+        //newToHold.SetActive(false);
+        if(GameManager.instance.CheckIfPilot() == true)
         {
+            GameManager.instance.SwitchPlaystyle();
+            CameraMovement.instance.ChangeTarget(player.transform);
+            player.SetActive(true);
+            plane.SetActive(false);
             dummyPlane.SetActive(true);
-            holding.transform.position = playerTransform.position;
-            holding.transform.rotation = playerTransform.rotation;
-            holding.SetActive(true);
-            holding = newToHold;
+            player.transform.position = playerTransform.position;
+            player.transform.rotation = playerTransform.rotation;
+            //holding = newToHold;
+            holdingPlane = true;
         }
-        if(newToHold.tag == "Plane")
+        else if(GameManager.instance.CheckIfSoldier() == true && holdingPlane == true)
         {
+            GameManager.instance.SwitchPlaystyle();
+            CameraMovement.instance.ChangeTarget(plane.transform);
+            plane.SetActive(true);
+            player.SetActive(false);
             dummyPlane.SetActive(false);
-            holding.transform.position = planeTransform.position;
-            holding.transform.rotation = planeTransform.rotation;
-            holding.SetActive(true);
-            holding = newToHold;
+            plane.transform.position = planeTransform.position;
+            plane.transform.rotation = planeTransform.rotation;
+            holdingPlane = false;
         }
     }
     /*enum type {PLANE, PLAYER};

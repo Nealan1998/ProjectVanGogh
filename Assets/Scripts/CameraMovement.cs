@@ -8,11 +8,12 @@ public class CameraMovement : MonoBehaviour
 
     public float sonicSpeed = 0.125f;
     public Vector3 offset;
+    public static CameraMovement instance;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        instance = this;
     }
 
     // Update is called once per frame

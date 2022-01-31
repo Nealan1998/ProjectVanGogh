@@ -111,6 +111,7 @@ public class FinalSopwithHopefully : MonoBehaviour
     private void OnCollisionExit(Collision collision)
     {
         this.transform.rotation = new Quaternion(0f, this.transform.rotation.y, 0f, 0f);
+        UI.instance.currentHealth -= 20;
     }
 
 }
