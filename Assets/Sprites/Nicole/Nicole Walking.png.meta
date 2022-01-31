@@ -1,0 +1,624 @@
+fileFormatVersion: 2
+guid: fb79697f2d161a24183a663ca415c228
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 9173032752065223120
+    second: Nicole FR Standing
+  - first:
+      213: 2596481111359845255
+    second: Nicole FR Walking 1
+  - first:
+      213: 8936991022025025354
+    second: Nicole FR Walking 2
+  - first:
+      213: 1166479482100381880
+    second: Nicole FR Walking 4
+  - first:
+      213: -6491569755682909043
+    second: Nicole FR Walking 3
+  - first:
+      213: -5198825675245044979
+    second: Nicole BR Walking 2
+  - first:
+      213: 715716266684565615
+    second: Nicole BR Standing
+  - first:
+      213: 7064598240918364303
+    second: Nicole BR Walking 4
+  - first:
+      213: 3824867104283552683
+    second: Nicole BR Walking 1
+  - first:
+      213: -1168936396867453517
+    second: Nicole BR Walking 3
+  - first:
+      213: 2496347551688392307
+    second: Nicole FL Walking 2
+  - first:
+      213: 8056055915457455572
+    second: Nicole FL Walking 1
+  - first:
+      213: 5903149542474661685
+    second: Nicole FL Standing
+  - first:
+      213: 2231369398277401476
+    second: Nicole FL Walking 4
+  - first:
+      213: -3049919576668840602
+    second: Nicole FL Walking 3
+  - first:
+      213: -2382630055902564198
+    second: Nicole BL Walking 2
+  - first:
+      213: -4845971260585822284
+    second: Nicole BL Walking 4
+  - first:
+      213: 4607566877900956968
+    second: Nicole BL Standing
+  - first:
+      213: -5239374189206888783
+    second: Nicole BL Walking 3
+  - first:
+      213: 8081069364413376060
+    second: Nicole BL Walking 1
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Nicole FR Standing
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 3655
+        width: 388
+        height: 710
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d91fdbefa82d4f70800000000000000
+      internalID: 9173032752065223120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nicole FR Walking 1
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 3662
+        width: 409
+        height: 687
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7837d9460dd880420800000000000000
+      internalID: 2596481111359845255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nicole FR Walking 2
+      rect:
+        serializedVersion: 2
+        x: 1448
+        y: 3642
+        width: 449
+        height: 710
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4728acfbf1960c70800000000000000
+      internalID: 8936991022025025354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nicole FR Walking 4
+      rect:
+        serializedVersion: 2
+        x: 2473
+        y: 3616
+        width: 450
+        height: 709
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b8ff50a8ea203010800000000000000
+      internalID: 1166479482100381880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nicole FR Walking 3
+      rect:
+        serializedVersion: 2
+        x: 1968
+        y: 3640
+        width: 432
+        height: 663
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d84d9d573bf49e5a0800000000000000
+      internalID: -6491569755682909043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nicole BR Walking 2
+      rect:
+        serializedVersion: 2
+        x: 1517
+        y: 2739
+        width: 369
+        height: 710
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0bb6d9c79f0ad7b0800000000000000
+      internalID: -5198825675245044979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nicole BR Standing
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 2721
+        width: 371
+        height: 710
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f68c3bb072cbee900800000000000000
+      internalID: 715716266684565615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nicole BR Walking 4
+      rect:
+        serializedVersion: 2
+        x: 2429
+        y: 2721
+        width: 371
+        height: 710
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f80e9c69bae7a0260800000000000000
+      internalID: 7064598240918364303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nicole BR Walking 1
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 2737
+        width: 369
+        height: 670
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: babe5e7cd58a41530800000000000000
+      internalID: 3824867104283552683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nicole BR Walking 3
+      rect:
+        serializedVersion: 2
+        x: 1983
+        y: 2759
+        width: 384
+        height: 661
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bdb0b35a8a17cfe0800000000000000
+      internalID: -1168936396867453517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nicole FL Walking 2
+      rect:
+        serializedVersion: 2
+        x: 1502
+        y: 1594
+        width: 448
+        height: 710
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37e7d4e3fdec4a220800000000000000
+      internalID: 2496347551688392307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nicole FL Walking 1
+      rect:
+        serializedVersion: 2
+        x: 2020
+        y: 1614
+        width: 411
+        height: 688
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d5a68b1c2cdccf60800000000000000
+      internalID: 8056055915457455572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nicole FL Standing
+      rect:
+        serializedVersion: 2
+        x: 2546
+        y: 1609
+        width: 393
+        height: 708
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53f363f8b333ce150800000000000000
+      internalID: 5903149542474661685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nicole FL Walking 4
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 1570
+        width: 449
+        height: 707
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48b600b35aa67fe10800000000000000
+      internalID: 2231369398277401476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nicole FL Walking 3
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 1592
+        width: 432
+        height: 666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66dd42fdd428ca5d0800000000000000
+      internalID: -3049919576668840602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nicole BL Walking 2
+      rect:
+        serializedVersion: 2
+        x: 1513
+        y: 691
+        width: 369
+        height: 710
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9032ce76923feed0800000000000000
+      internalID: -2382630055902564198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nicole BL Walking 4
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 674
+        width: 369
+        height: 709
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b7b70540d6afbcb0800000000000000
+      internalID: -4845971260585822284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nicole BL Standing
+      rect:
+        serializedVersion: 2
+        x: 2587
+        y: 674
+        width: 369
+        height: 709
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 825642cd9ad51ff30800000000000000
+      internalID: 4607566877900956968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nicole BL Walking 3
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 713
+        width: 380
+        height: 661
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1be19fe2fe00a47b0800000000000000
+      internalID: -5239374189206888783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nicole BL Walking 1
+      rect:
+        serializedVersion: 2
+        x: 1944
+        y: 689
+        width: 369
+        height: 670
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c36a62785c9b52070800000000000000
+      internalID: 8081069364413376060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: aa93c5592bafafc4889e6cd92c62d3d1
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
